@@ -3128,7 +3128,7 @@ border:none;
 	  font-size: 13px;
 	  }
 	.callbacks_nav.next {
-	  left: 97%;
+	  left: 97%;width:180px;border-radius:50%;
 	}
 	a.callbacks_nav.callbacks1_nav.prev {
 	  left: -2%;
@@ -3178,7 +3178,7 @@ border:none;
 	}
 	.contact-right {
 	  float: right;
-	  width: 54% !important;
+	  width: 54% !important;width:180px;border-radius:50%;
 	}
 	.contact-right form input[type="submit"] {
 	  width: 55%;
@@ -3504,3 +3504,13 @@ a.callbacks_nav.callbacks1_nav.prev {
 
 
 /*-- responsive media queries --*/
+
+.prof{
+	width:180px;border-radius:50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.prof{
+		width:115px;border-radius:50%;
+	}
+}
